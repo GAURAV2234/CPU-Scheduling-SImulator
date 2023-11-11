@@ -1,8 +1,9 @@
-# CPU-Scheduling-Simulator
-This is A CPU Scheduling Algorithms Simulator In Java
-Different CPU Scheduling algorithms have different and unique properties but choosing which algorithm to use in a particular situation depends on the various 
-characteristics that are used for comparison in determining which scheduling algorithm is judged to be best. These characteristics are referred to as CPU scheduling criteria. In some situations, it may be desirable that response time should be maximized with little attention to the throughput or it may be desirable to have the least possible average waiting time with little to no attention to response time or the balance between all these characteristics may be required. In all these situations how do you determine which scheduling algorithm is best for a particular situation? providing the solution to this problem is the goal of our project.
-CPU Scheduling Simulator will be able to provide an environment in which the user could experimentally test the performance of each algorithm by simulation. At the start of the program, user is allowed to select any CPU scheduling algorithm they want to simulate the performance of. Next, the user is required to provide the number of processes and the associated information with each process such as CPU burst, process id, priority (in case priority scheduling policy is selected), arrival time, and so on. The user is then able to see the execution of processes along with the remaining wait/burst time as well as the processes waiting in the ready queue. One important aspect of the project is that the application is Graphical User Interface based, hence, it will be easy and convenient to use.
 
-Video Link of project demonstration: https://www.youtube.com/watch?v=Rf6Ec8PjOyg
+*CPU SCHEDULING SIMULATOR*
+
+The CPU Scheduling Simulator is a Java-based platform designed to model various CPU scheduling algorithms. Each algorithm possesses distinct traits, and the selection of an appropriate algorithm for a given scenario relies on specific criteria, known as CPU scheduling criteria. Determining the most suitable algorithm involves a comparative assessment of factors like response time, throughput, and average waiting time. The challenge lies in balancing these factors effectively. Our project aims to address this challenge by offering a solution for selecting the most appropriate scheduling algorithm for specific situations.
+
+The Simulator creates an environment enabling users to experimentally evaluate the performance of different algorithms through simulation. Users initiate the program by choosing the scheduling algorithm they wish to simulate. Subsequently, they input the number of processes and associated details for each, such as CPU burst, process ID, priority (if employing priority scheduling), arrival time, and more. The simulation visualizes the process execution, displaying remaining wait or burst times, along with processes in the ready queue. Notably, the project emphasizes a Graphical User Interface (GUI) for user-friendly and accessible operation.
+
+
 
